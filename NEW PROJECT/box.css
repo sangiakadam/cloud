@@ -1,0 +1,20 @@
+.parent{
+    height: 400px;
+    width: 400px;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    /* align-items: ; */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* justify-content: end; */
+    justify-content:top-right;
+    flex-wrap:wrap;
+    align-content: space-between;
+
+}
+.child{
+    height: 100px;
+    width: 100px;
+    border: 4px solid black;
+}
